@@ -1,6 +1,6 @@
 ---
 
-### 📌 Use Case Examples (Deeper Explanation)
+### 📌 AWS Networking
 
 1. **VPC (Virtual Private Cloud):**
    Example – An e-commerce company launches a VPC with multiple subnets (public for web servers, private for databases). Security groups allow only HTTPS to the web servers, and NAT gateways allow private instances to download updates securely.
@@ -16,11 +16,6 @@
 
 5. **Transit Gateway & Traffic Mirroring:**
    Example – A multinational corporation connects 20+ VPCs across multiple regions using a Transit Gateway, simplifying routing. Security teams use Traffic Mirroring to capture packets and analyze potential threats in real time.
-
----
-
-Got it 👍
-Here’s the same table in a **copyable tabular format** (Markdown). You can paste it directly into Word, Excel, or Notion:
 
 ---
 
