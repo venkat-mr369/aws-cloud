@@ -1,6 +1,6 @@
-migrating an **11 TB PostgreSQL database** from on-premises to AWS requires carefully weighing **Aurora, RDS for PostgreSQL, and self-managed PostgreSQL on EC2**. Each option has strengths and limitations depending on **storage limits, migration methods, HA/DR requirements, and workload patterns**.
+Migrating an **11 TB PostgreSQL database** from on-premises to AWS requires carefully weighing **Aurora, RDS for PostgreSQL, and self-managed PostgreSQL on EC2**. Each option has strengths and limitations depending on **storage limits, migration methods, HA/DR requirements, and workload patterns**.
 
-Let’s break this down step by step.
+step by step methods, you can find.
 
 ---
 
