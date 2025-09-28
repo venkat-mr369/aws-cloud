@@ -3,7 +3,7 @@
 
 ---
 
-# 🔑 Key Facts about Extensions in Aurora PostgreSQL
+### 🔑 Key Facts about Extensions in Aurora PostgreSQL
 
 1. Aurora PostgreSQL supports **only the extensions included by AWS** (you cannot install custom `.so` libraries like on self-managed Postgres).
 2. Extensions are already **shipped with the Aurora engine** → you just need to **enable them** using `CREATE EXTENSION`.
@@ -19,7 +19,7 @@
 
 ---
 
-# 📝 Steps to Install & Implement an Extension in Aurora PostgreSQL
+### 📝 Steps to Install & Implement an Extension in Aurora PostgreSQL
 
 ---
 
@@ -260,7 +260,7 @@ This is a very common interview question: *“Which extensions do you use in pro
 
 ---
 
-# 🧠 Interview-Ready Short Answer
+### 🧠 Interview-Ready Short Answer
 
 > “In Aurora PostgreSQL, I commonly use `pg_stat_statements` for query monitoring, `uuid-ossp` for unique IDs, `pgcrypto` for encryption, `hstore` or `jsonb` for semi-structured data, `tablefunc` for reporting pivots, and sometimes `postgis` for geospatial queries. Extensions in Aurora are pre-installed by AWS, so we enable them with `CREATE EXTENSION`. Unlike self-managed Postgres, we cannot add custom `.so` libraries.”
 
