@@ -1,4 +1,4 @@
-i have a aurora-prod-inst1 in this i have a database hrdb in this prod-inst1-snapshot i have to restore in existing aurora-dev-inst1 existing hrdb  like refresh in aws rds but directly supported for we dba-refresh-inst9 can i restore existing prod-inst1-snapshot ? can you suggest
+**I have a aurora-prod-inst1 in this, i have a database hrdb,in this prod-inst1-snapshot backup. i have to restore in existing aurora-dev-inst1 existing hrdb like DBrefresh in aws rds but directly not supported for that we have dba-refresh-inst9 can i restore existing prod-inst1-snapshot? can i db refresh?**
 
 **practical DBA refresh scenario**:
 
