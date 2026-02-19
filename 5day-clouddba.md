@@ -1,0 +1,6 @@
+5-Day AWS Cloud DBA Training guide I created for you. Here's what each day covers:
+Day 1 — AWS Foundations: Regions/AZs diagrams, Shared Responsibility model (EC2 vs RDS), IAM users/groups/roles with custom DBA policy JSON, VPC with DB subnet groups, Security Groups with port rules for all DB engines (1433, 1521, 3306, 5432)
+Day 2 — Compute & Storage: EC2 instance type recommendations (r6i, i4i, x2idn), best disk layout for SQL Server & Oracle, gp3 vs io2 decision chart, EBS snapshots with cross-region DR copy, S3 lifecycle policies for backup tiering, AWS Backup plans
+Day 3 — Managed DB Services: RDS create commands for SQL Server/Oracle/PostgreSQL, PITR restore, parameter groups for SQL Server & PostgreSQL, KMS encryption + Secrets Manager with auto-rotation, Aurora architecture (6 copies/3 AZs) with Global Database
+Day 4 — Monitoring, HA & DR: CloudWatch alarm creation for CPU/storage/replica-lag, Performance Insights enablement, Multi-AZ failover process, 4 DR strategies (Backup & Restore → Active-Active), troubleshooting quick-fix table
+Day 5 — Security, Automation & Cost: KMS key management, AWS CLI DBA cheat sheet, automated snapshot scheduling, cost optimization tips (Reserved Instances, right-sizing, stop dev/test), complete morning health check bash script, daily/weekly/monthly DBA routine
