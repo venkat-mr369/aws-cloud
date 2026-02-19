@@ -20,28 +20,28 @@ AWS runs data centers across the world. They are organized into three levels:
   AWS Global Infrastructure Hierarchy
 
   ┌─────────────────────────────────────────────────────┐
-  │                    AWS CLOUD                         │
+  │                    AWS CLOUD                        │
   │                                                     │
-  │  ┌─── REGION (e.g., us-east-1 / N. Virginia) ───┐  │
+  │  ┌─── REGION (e.g., us-east-1 / N. Virginia) ───┐   │
   │  │                                               │  │
-  │  │  ┌─── AZ: us-east-1a ───┐                    │  │
+  │  │  ┌─── AZ: us-east-1a ───┐                     │  │
   │  │  │  Data Center 1        │                    │  │
   │  │  │  Data Center 2        │                    │  │
   │  │  └───────────────────────┘                    │  │
   │  │                                               │  │
-  │  │  ┌─── AZ: us-east-1b ───┐                    │  │
+  │  │  ┌─── AZ: us-east-1b ───┐                     │  │
   │  │  │  Data Center 3        │                    │  │
   │  │  │  Data Center 4        │                    │  │
   │  │  └───────────────────────┘                    │  │
   │  │                                               │  │
-  │  │  ┌─── AZ: us-east-1c ───┐                    │  │
+  │  │  ┌─── AZ: us-east-1c ───┐                     │  │
   │  │  │  Data Center 5        │                    │  │
   │  │  └───────────────────────┘                    │  │
   │  └───────────────────────────────────────────────┘  │
   │                                                     │
   │  ┌─── REGION (e.g., ap-south-1 / Mumbai) ────────┐  │
   │  │  AZ: ap-south-1a | ap-south-1b | ap-south-1c  │  │
-  │  └────────────────────────────────────────────────┘  │
+  │  └────────────────────────────────────────────────┘ │
   └─────────────────────────────────────────────────────┘
 ```
 
